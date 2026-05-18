@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://Akashve1995.github.io/ml-dsa-notes/placeholders/GRAPH/">
       
       
+        <link rel="prev" href="../../graph-dsa/graph-algorithms/">
+      
+      
+        <link rel="next" href="PYTHON/">
       
       
         
@@ -25,7 +29,7 @@
     
     
       
-        <title>Graph DSA Algorithms — Complete Reference Guide - Akash's ML & DSA Notes</title>
+        <title>General Graph Algorithms - Akash's ML & DSA Notes</title>
       
     
     
@@ -122,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Graph DSA Algorithms — Complete Reference Guide
+              General Graph Algorithms
             
           </span>
         </div>
@@ -251,6 +255,8 @@
   
   
   
+    
+  
   
     
     
@@ -258,10 +264,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../../graph-dsa/graph-algorithms/" class="md-tabs__link">
           
   
@@ -419,28 +427,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -458,7 +469,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -473,28 +484,31 @@
                 
   
   
+    
   
   
+  
     
     
     
     
       
       
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
         
           
+          
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_1" >
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
         
           
-          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="">
             
   
   
@@ -512,7 +526,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             
@@ -555,10 +569,724 @@
                 
   
   
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Graph Algorithms
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General Graph Algorithms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#choosing-the-right-algorithm-quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choosing the right algorithm — quick reference
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-graph-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Graph Representation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Graph Representation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adjacency-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjacency List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adjacency-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Adjacency Matrix
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-traversal-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Traversal Algorithms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Traversal Algorithms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bfs-breadth-first-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BFS — Breadth-First Search
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfs-depth-first-search" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DFS — Depth-First Search
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-shortest-path-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Shortest Path Algorithms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Shortest Path Algorithms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dijkstras-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dijkstra's Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bellman-ford-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bellman-Ford Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#floyd-warshall-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Floyd-Warshall Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A* Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-minimum-spanning-tree-mst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Minimum Spanning Tree (MST)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Minimum Spanning Tree (MST)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kruskals-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kruskal's Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prims-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prim's Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-cycle-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Cycle Detection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Cycle Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#undirected-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Undirected Graphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#directed-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Directed Graphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-topological-sort" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Topological Sort
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Topological Sort">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kahns-algorithm-bfs-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kahn's Algorithm (BFS-based)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dfs-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DFS-based
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-connected-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Connected Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Connected Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bfsdfs-component-labelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BFS/DFS Component Labelling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#union-find-disjoint-set-union-dsu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Union-Find (Disjoint Set Union — DSU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strongly-connected-components-sccs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strongly Connected Components (SCCs)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Strongly Connected Components (SCCs)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kosarajus-algorithm-2-dfs-passes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kosaraju's Algorithm (2 DFS passes)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tarjans-algorithm-1-dfs-pass" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tarjan's Algorithm (1 DFS pass)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-network-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Network Flow
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Network Flow">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ford-fulkerson-edmonds-karp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ford-Fulkerson / Edmonds-Karp
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-bipartite-checking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Bipartite Checking
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-eulerian-and-hamiltonian-paths" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Eulerian and Hamiltonian Paths
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Eulerian and Hamiltonian Paths">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#eulerian-path-circuit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Eulerian Path / Circuit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hamiltonian-path-circuit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hamiltonian Path / Circuit
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-bridge-and-articulation-point-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Bridge and Articulation Point Detection
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-shortest-path-in-special-graph-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Shortest Path in Special Graph Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Shortest Path in Special Graph Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dag-shortest-longest-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DAG Shortest / Longest Path
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#0-1-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        0-1 BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#multi-source-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-Source BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-algorithm-comparison-tables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Algorithm Comparison Tables
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Algorithm Comparison Tables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shortest-path-which-algorithm-when" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shortest Path — Which Algorithm When?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#problem-type-algorithm-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem Type → Algorithm Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-additional-points-worth-knowing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Additional Points Worth Knowing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Additional Points Worth Knowing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#implicit-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implicit Graphs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bidirectional-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bidirectional BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dsu-without-both-optimisations-is-dangerous" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DSU Without Both Optimisations Is Dangerous
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#negative-cycle-workaround" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Negative Cycle Workaround
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pruning-in-backtracking-hamiltonian-tsp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pruning in Backtracking (Hamiltonian / TSP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graph-condensation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Graph Condensation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-bfs-vs-dfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choosing BFS vs DFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-complexity-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference — Complexity Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="../../graph-dsa/python-graph/" class="md-nav__link">
+      <a href="PYTHON/" class="md-nav__link">
         
   
   
@@ -566,6 +1294,62 @@
     
   
     Python Graph Algorithms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="KOTLIN/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kotlin Graph Algorithms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="JAVASCRIPT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Javascript Graph Algorithms
   
 
     
@@ -2800,6 +3584,44 @@ An <strong>articulation point</strong> (cut vertex) is a node whose removal disc
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../../graph-dsa/graph-algorithms/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Graph Algorithms">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Graph Algorithms
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="PYTHON/" class="md-footer__link md-footer__link--next" aria-label="Next: Python Graph Algorithms">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Python Graph Algorithms
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
