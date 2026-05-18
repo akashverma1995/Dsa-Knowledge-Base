@@ -72,9 +72,13 @@ markdown_extensions:
 nav:
   - Home: index.md
   - DSA:
-      - DSA PYTHON:
-          - Graph Algorithms: graph-dsa/graph-algorithms.md
-          - Python Graph Algorithms: graph-dsa/python-graph.md
+      - DSA PYTHON: placeholders/GRAPH/README.md
+                    - Graph Algorithms: graph-dsa/graph-algorithms.md
+                    - General Graph Algorithms: placeholders/GRAPH/README.md
+                    - Python Graph Algorithms: placeholders/GRAPH/PYTHON/README.md
+                    - Kotlin Graph Algorithms: placeholders/GRAPH/KOTLIN/README.md
+                    - Javascript Graph Algorithms: placeholders/GRAPH/JAVASCRIPT/README.md
+                    
   - Machine Learning:
       - PEFT Methods: placeholders/peft.md
       - NLP & Transformers: placeholders/nlp.md
