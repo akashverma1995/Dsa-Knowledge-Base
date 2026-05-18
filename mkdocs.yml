@@ -76,7 +76,9 @@ nav:
           - Graph Algorithms: graph-dsa/graph-algorithms.md
           - General Graph Algorithms: placeholders/GRAPH/README.md
           - Python Graph Algorithms: placeholders/GRAPH/PYTHON/README.md
+      - DSA KOTLIN:
           - Kotlin Graph Algorithms: placeholders/GRAPH/KOTLIN/README.md
+      - DSA JAVASCRIPT:
           - Javascript Graph Algorithms: placeholders/GRAPH/JAVASCRIPT/README.md
                     
   - Machine Learning:
