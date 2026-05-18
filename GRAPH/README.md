@@ -9,7 +9,7 @@ The right choice depends on three questions: what do you need (path, tree, flow,
 <img width="1366" height="1160" alt="image" src="https://github.com/user-attachments/assets/dca45121-d736-4d41-b056-f7ead236c321" />
 
 ---
-ipynb - https://colab.research.google.com/drive/1XWEyH4IKdn8jG7heJniwpZMd9kW6I0ZV#scrollTo=js_Cabnrdtxn
+[Ipynb Notebook](https://colab.research.google.com/drive/1XWEyH4IKdn8jG7heJniwpZMd9kW6I0ZV#scrollTo=js_Cabnrdtxn)
 
 ---
 A language-agnostic, comprehensive reference covering every major graph algorithm: what it is, when to use it, why it works, and where it fits in the real world.
