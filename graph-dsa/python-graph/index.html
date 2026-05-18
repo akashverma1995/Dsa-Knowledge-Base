@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://Akashve1995.github.io/ml-dsa-notes/graph-dsa/python-graph/">
       
       
+        <link rel="prev" href="../graph-algorithms/">
+      
+      
+        <link rel="next" href="../../placeholders/peft/">
       
       
         
@@ -25,7 +29,7 @@
     
     
       
-        <title>📊 Graph Data Structures & Algorithms — Complete Tutorial & Roadmap - Akash's ML & DSA Notes</title>
+        <title>Python Graph Algorithms - Akash's ML & DSA Notes</title>
       
     
     
@@ -122,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📊 Graph Data Structures &amp; Algorithms — Complete Tutorial &amp; Roadmap
+              Python Graph Algorithms
             
           </span>
         </div>
@@ -251,10 +255,12 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href="../graph-algorithms/" class="md-tabs__link">
           
   
@@ -409,28 +415,31 @@
       
   
   
+    
   
   
+  
     
     
     
     
+      
+        
+        
       
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -448,7 +457,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -482,6 +491,840 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python Graph Algorithms
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python Graph Algorithms
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📚 Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-what-is-a-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. What is a Graph?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. What is a Graph?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mathematical-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mathematical Definition
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-graph-terminology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Graph Terminology
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-types-of-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Types of Graphs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Types of Graphs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-undirected-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Undirected Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-directed-graph-digraph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Directed Graph (Digraph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-weighted-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Weighted Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-dag-directed-acyclic-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.4 DAG (Directed Acyclic Graph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#35-bipartite-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.5 Bipartite Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#36-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.6 Tree
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-graph-representations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Graph Representations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Graph Representations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-adjacency-matrix" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.1 Adjacency Matrix
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-adjacency-list-most-common" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.2 Adjacency List ⭐ (Most Common)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-edge-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.3 Edge List
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-comparison-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.4 Comparison Table
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-graph-traversals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Graph Traversals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Graph Traversals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#51-breadth-first-search-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.1 Breadth-First Search (BFS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#52-depth-first-search-dfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.2 Depth-First Search (DFS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#53-bfs-vs-dfs-decision-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.3 BFS vs DFS — Decision Guide
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-cycle-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Cycle Detection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Cycle Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-undirected-graph-cycle-detection-dfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.1 Undirected Graph — Cycle Detection (DFS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-undirected-graph-cycle-detection-dsu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.2 Undirected Graph — Cycle Detection (DSU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#63-directed-graph-cycle-detection-dfs-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.3 Directed Graph — Cycle Detection (DFS + Color)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-topological-sort" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Topological Sort
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Topological Sort">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-dfs-based-topological-sort-kahns-is-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.1 DFS-based Topological Sort (Kahn's is next)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-bfs-based-topological-sort-kahns-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.2 BFS-based Topological Sort (Kahn's Algorithm) ⭐
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#73-topo-sort-real-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.3 Topo Sort — Real Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-shortest-path-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Shortest Path Algorithms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Shortest Path Algorithms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-bfs-unweighted-shortest-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1 BFS — Unweighted Shortest Path
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-dijkstras-algorithm-non-negative-weights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2 Dijkstra's Algorithm ⭐ (Non-negative weights)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-bellman-ford-algorithm-handles-negative-weights" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3 Bellman-Ford Algorithm (Handles negative weights)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#84-floyd-warshall-all-pairs-shortest-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.4 Floyd-Warshall (All-pairs shortest path)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#85-shortest-path-algorithm-decision-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.5 Shortest Path Algorithm Decision Guide
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-minimum-spanning-tree-mst" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Minimum Spanning Tree (MST)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Minimum Spanning Tree (MST)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-kruskals-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1 Kruskal's Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-prims-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2 Prim's Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#93-kruskal-vs-prim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.3 Kruskal vs Prim
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-disjoint-set-union-dsu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Disjoint Set Union (DSU)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-advanced-graph-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Advanced Graph Algorithms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Advanced Graph Algorithms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#111-connected-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.1 Connected Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#112-bipartite-check-2-coloring" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.2 Bipartite Check (2-Coloring)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#113-bridges-and-articulation-points-tarjans-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.3 Bridges and Articulation Points (Tarjan's Algorithm)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#114-strongly-connected-components-scc-kosarajus-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.4 Strongly Connected Components (SCC) — Kosaraju's Algorithm
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#115-flood-fill-matrix-as-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.5 Flood Fill (Matrix as Graph)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#116-multi-source-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11.6 Multi-Source BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-graph-patterns-for-interviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Graph Patterns for Interviews
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Graph Patterns for Interviews">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pattern-1-grid-as-graph" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 1: Grid as Graph
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-2-multi-source-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 2: Multi-Source BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-3-bidirectional-bfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 3: Bidirectional BFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-4-dijkstra-on-2d-grid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 4: Dijkstra on 2D Grid
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-5-topo-sort-for-dependencies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 5: Topo Sort for Dependencies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pattern-6-union-find-for-dynamic-connectivity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pattern 6: Union-Find for Dynamic Connectivity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-problem-bank-with-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Problem Bank with Solutions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Problem Bank with Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟢 Easy Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medium-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🟡 Medium Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hard-problems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔴 Hard Problems
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-problem-walkthrough-course-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Problem Walkthrough: Course Schedule
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selected-problem-walkthrough-number-of-islands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Selected Problem Walkthrough: Number of Islands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-complexity-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Complexity Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-learning-roadmap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Learning Roadmap
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑 Key Takeaways
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📖 Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -3449,6 +4292,44 @@ Ordering such that for every edge u→v, u comes before v</p>
       
         <footer class="md-footer">
   
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../graph-algorithms/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Graph Algorithms">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Graph Algorithms
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../placeholders/peft/" class="md-footer__link md-footer__link--next" aria-label="Next: PEFT Methods">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                PEFT Methods
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
     
   
   <div class="md-footer-meta md-typeset">
