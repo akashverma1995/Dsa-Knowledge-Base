@@ -1,5 +1,13 @@
 # Graph DSA Algorithms — Complete Reference Guide
+---
+## Choosing the right algorithm — quick reference
 
+
+The right choice depends on three questions: what do you need (path, tree, flow, components), what kind of edges (unweighted, non-negative, negative), and what scale (single pair, single source, all pairs).
+
+<img width="1366" height="1160" alt="image" src="https://github.com/user-attachments/assets/dca45121-d736-4d41-b056-f7ead236c321" />
+
+---
 A language-agnostic, comprehensive reference covering every major graph algorithm: what it is, when to use it, why it works, and where it fits in the real world.
 
 ---
