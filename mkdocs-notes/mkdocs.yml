@@ -1,0 +1,95 @@
+site_name: Akash's ML & DSA Notes
+site_url: https://Akashve1995.github.io/ml-dsa-notes
+site_author: Akash
+site_description: Personal reference notes on ML, NLP, Computer Vision, DSA, and MLOps
+
+repo_name: Akashve1995/ml-dsa-notes
+repo_url: https://github.com/Akashve1995/ml-dsa-notes
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - toc:
+      permalink: true
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - DSA:
+    - Graph Algorithms: graph-dsa/graph-algorithms.md
+  - Machine Learning:
+    - PEFT Methods: placeholders/peft.md
+    - NLP & Transformers: placeholders/nlp.md
+    - YOLO Architectures: placeholders/yolo.md
+    - RAG Pipelines: placeholders/rag.md
+  - MLOps:
+    - Docker & GCP: placeholders/mlops.md
+    - LLM Fine-tuning: placeholders/finetuning.md
+  - Edge AI:
+    - MediaPipe & LiteRT: placeholders/edge-ai.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Akashve1995
+  analytics:
+    provider: google
+    property: !ENV [GOOGLE_ANALYTICS_KEY, '']
+
+copyright: Copyright &copy; 2024 Akash
