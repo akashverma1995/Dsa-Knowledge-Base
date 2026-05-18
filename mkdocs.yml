@@ -75,16 +75,16 @@ nav:
       - DSA PYTHON:
           - Graph Algorithms: graph-dsa/graph-algorithms.md
           - Python Graph Algorithms: graph-dsa/python-graph.md
-  - Machine Learning: 
-    - PEFT Methods: placeholders/peft.md
-    - NLP & Transformers: placeholders/nlp.md
-    - YOLO Architectures: placeholders/yolo.md
-    - RAG Pipelines: placeholders/rag.md
+  - Machine Learning:
+      - PEFT Methods: placeholders/peft.md
+      - NLP & Transformers: placeholders/nlp.md
+      - YOLO Architectures: placeholders/yolo.md
+      - RAG Pipelines: placeholders/rag.md
   - MLOps:
-    - Docker & GCP: placeholders/mlops.md
-    - LLM Fine-tuning: placeholders/finetuning.md
+      - Docker & GCP: placeholders/mlops.md
+      - LLM Fine-tuning: placeholders/finetuning.md
   - Edge AI:
-    - MediaPipe & LiteRT: placeholders/edge-ai.md
+      - MediaPipe & LiteRT: placeholders/edge-ai.md
 
 extra:
   social:
